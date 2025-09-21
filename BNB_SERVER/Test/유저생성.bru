@@ -1,0 +1,21 @@
+meta {
+  name: 유저생성
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{local}}/user
+  body: formUrlEncoded
+  auth: inherit
+}
+
+body:form-urlencoded {
+  id: BNB_USER
+  pw: 1234
+  name: 이홍준
+}
+
+settings {
+  encodeUrl: true
+}

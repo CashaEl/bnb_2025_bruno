@@ -1,0 +1,23 @@
+meta {
+  name: 유저정보수정
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{local}}/user/:id
+  body: formUrlEncoded
+  auth: inherit
+}
+
+params:path {
+  id: BNBUSER
+}
+
+body:form-urlencoded {
+  nick: 개똥이
+}
+
+settings {
+  encodeUrl: true
+}
