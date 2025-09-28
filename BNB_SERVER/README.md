@@ -1,2 +1,0 @@
-# 2025 브루노 API
-- BNB_SERVER : 2025하반기 API

@@ -1,0 +1,15 @@
+meta {
+  name: IP 테스트
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{local}}/auth
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
